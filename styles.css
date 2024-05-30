@@ -1,0 +1,79 @@
+
+.nav-color{
+    background-color: blueviolet;
+}
+
+.img-control{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.circle h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.dark-mode .card{
+    background-color: #4B4E53;
+    color: #FAF9F6;
+}
+
+.card-title {
+    margin-bottom: 15px;
+}
+
+.card-body ul {
+    padding-left: 20px;
+}
+
+.card-body ul li {
+    margin-bottom: 10px;
+}
+
+body.dark-mode {
+    background-color: #1B1B1B;
+    color: #ffffff;
+}
+.dark-mode .navbar {
+    background-color: blueviolet;
+}
+.dark-mode .btn-dark-mode:hover {
+    background-color: #ffffff;
+    color: #1B1B1B;
+}
+
+.c-about{
+    background-color: #FAF9F6;
+}
+
+.dark-mode .c-about{
+    background-color: #4B4E53;
+    color: #FAF9F6; 
+}
+
+.dark-mode .pagination > li > a
+{
+    background-color: #4B4E53;
+    color: #FAF9F6;
+}
+
+.dark-mode .hr-color{
+    background-color: #FAF9F6;
+}
+
+.container_sleep > p{
+    margin: 10px 0 10px 0;
+    padding: 0.5em;
+}
